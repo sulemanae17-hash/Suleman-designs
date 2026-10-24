@@ -81,6 +81,8 @@ export const projects: { title: string; category: ProjectCategory; url: string; 
   { title: "Medical Website", category: "Health", url: "https://spectacular-starship-425f54.netlify.app", desc: "Clean, trustworthy clinic website that makes patient contact easy.", icon: "stethoscope" },
   { title: "Personal Portfolio", category: "Portfolio", url: "https://aesthetic-brioche-b21429.netlify.app", desc: "Modern personal portfolio built to showcase work and attract clients.", icon: "user" },
   { title: "Restaurant Website", category: "Food", url: "https://stupendous-sopapillas-93d811.netlify.app", desc: "Tasty restaurant website with menu highlights and a warm, inviting design.", icon: "utensils" },
+  { title: "PowerGym Fitness", category: "Health", url: "https://powergym-fitness.vercel.app", desc: "Bold, high-energy gym website with training programs, a free-trial offer and strong call-to-actions.", icon: "dumbbell" },
+
 ];
 
 // Project screenshots are bundled in public/images so they load on any host.
@@ -90,6 +92,7 @@ const localThumbs: Record<string, string> = {
   "Medical Website": "/images/medical-preview.jpg",
   "Personal Portfolio": "/images/portfolio-preview.jpg",
   "Restaurant Website": "/images/restaurant-preview.jpg",
+  "PowerGym Fitness": "/images/powergym-preview.jpg",
 };
 export const thumb = (url: string) => {
   const p = projects.find((x) => x.url === url);
