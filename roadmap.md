@@ -1,0 +1,3 @@
+- [ ] Audit original image URLs and independent-hosting configuration.
+- [ ] Fix portable image handling without changing the design or originals.
+- [ ] Test image delivery and prepare a clean Vercel source ZIP with deployment instructions.
